@@ -43,7 +43,7 @@ try {
 def division(def number1, def number2){
 
 try{
-    if (number1=0||number2=0){
+    if (number1==0||number2==0){
     echo "Division cannot happen"
  }
     else {
