@@ -54,3 +54,7 @@ try{
     throw error
 }
 }
+
+def setBuildDescription(String desc) {
+    currentBuild.description = desc
+}
